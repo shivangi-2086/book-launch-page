@@ -30,6 +30,9 @@
     <!--/div-->
   </section>
 
+  <section class="search-section">
+     <input type="text" id="searchInput" placeholder="Search books..." />
+  </section>
   
   <section class="recommendations">
   <h3>📚 Recommended Books</h3>
@@ -64,8 +67,22 @@
   </div>
 </section>
 
-  <footer>
+
+<!-- UPDATED HTML with JS Hook IDs and Search Bar --><!-- Only changes/additions shown, assume rest is same as your original HTML --><!-- 🔍 Add this inside <body>, just above the Recommendations section --><section class="search-section">
+  <!--<input type="text" id="searchInput" placeholder="Search books..." />-->
+</section><!-- 📌 Add these sections below the Recommended Books section --><section class="tbr-section">
+  <h3>📖 My TBR List</h3>
+  <div id="tbrList" class="book-list"></div>
+</section><section class="finished-section">
+  <h3>✅ Finished Books</h3>
+  <div id="finishedList" class="book-list"></div>
+</section><!--  Link JavaScript -->
+<script src="script.js"></script>
+
+
+ <footer>
     <p>Made by Shivangi | <a href="https://github.com/shivangi-2086">GitHub</a></p>
   </footer>
+  
 </body>
 </html>
