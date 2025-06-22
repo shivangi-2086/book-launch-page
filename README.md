@@ -29,6 +29,10 @@ A fully planned, self-initiated book tracking web application designed to help u
 
 > UI/UX principles in practice
 
+> JavaScript for adding dynamic search functionality to find books from the list
+
+> Enabled interactive button behaviours (like hover effects, click highlights, changes button colour) using JS
+
 🧩 Skills & Tech to be Integrated (Phase-wise):
 
 > JavaScript – Add interactivity (dynamic buttons, dark mode toggle, etc.)
